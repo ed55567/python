@@ -28,3 +28,16 @@ index = 0
 while index < length:
     print("I am learning about " + python_topics[index])
     index += 1
+
+# Infinite Loops
+students_period_A = ["Alex", "Briana", "Cheri", "Daniele"]
+students_period_B = ["Dora", "Minerva", "Alexa", "Obie"]
+
+for student in students_period_A:
+    # students_period_A.append(student)
+    print(student)
+
+# Loop Control Break
+dog_breeds_available_for_adoption = [
+    "french_bulldog", "dalmatian", "shihtzu", "poodle", "collie"]
+dog_breed_I_want = "dalmatian"
