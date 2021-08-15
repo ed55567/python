@@ -49,4 +49,9 @@ if dog_breed == dog_breed_I_want:
     print("They have the dog I want!")
 
 # Loop Control: Continue
-  ages = [12, 38, 34, 26, 21, 19, 67, 41, 17]
+ages = [12, 38, 34, 26, 21, 19, 67, 41, 17]
+
+for age in ages:
+    if age < 21:
+        continue
+    print(age)
