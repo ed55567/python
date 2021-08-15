@@ -30,3 +30,16 @@ def generate_trip_instructions(location):
 # Checkpoint 3 & 4
 generate_trip_instructions("Central Park")
 generate_trip_instructions("Grand Central Station")
+
+# Multiple Parameters
+
+
+def calculate_expenses(plane_ticket_price, car_rental_rate, hotel_rate, trip_time):
+
+    car_rental_total = car_rental_rate * trip_time
+    hotel_total = hotel_rate * trip_time - 10
+
+    print(car_rental_total + hotel_total + plane_ticket_price)
+
+
+calculate_expenses(200, 100, 100, 5)
