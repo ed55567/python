@@ -47,3 +47,6 @@ for dog_breed in dog_breeds_available_for_adoption:
     break
 if dog_breed == dog_breed_I_want:
     print("They have the dog I want!")
+
+# Loop Control: Continue
+  ages = [12, 38, 34, 26, 21, 19, 67, 41, 17]
