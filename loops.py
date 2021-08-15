@@ -77,3 +77,25 @@ heights = [161, 164, 156, 144, 158, 170, 163, 163, 157]
 can_ride_coaster = [height for height in heights if height > 161]
 
 print(can_ride_coaster)
+
+# returns
+current_budget = 3500.75
+
+
+def print_remaining_budget(budget):
+    print("Your remaining budget is: $" + str(budget))
+
+
+print_remaining_budget(current_budget)
+
+# Write your code below:
+
+
+def deduct_expense(budget, expense):
+    return budget - expense
+
+
+shirt_expense = 9
+new_budget_after_shirt = deduct_expense(current_budget, shirt_expense)
+
+print_remaining_budget(new_budget_after_shirt)
